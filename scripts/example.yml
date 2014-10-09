@@ -1,0 +1,8 @@
+# Both description and elevation are optional. 
+description: "This message will be shown when using the command /isp help example"
+elevation: operator
+script:
+  - "if {money}>25"
+  - "return I'm rich!"
+  - "else"
+  - "return Poor bastard!"

@@ -1,0 +1,17 @@
+title: "&1Custom &4Titles"
+permission: sidebar.use.example
+description: This is an example scoreboard!
+keys: 
+ - "Age"
+ - "Age: {age}"
+ - "Group: {group}"
+ - "+&ac&bo&clo&dr"
+ - "+Symbols \u2764"
+ - "15 Characters"
+values:
+ - "{age}"
+ - "5"
+ - "4"
+ - "3"
+ - "2"
+ - "1"
