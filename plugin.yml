@@ -1,6 +1,6 @@
 name: SideBar
 main: com.empcraft.sidebar.SideBar
-version: 0.1.0
+version: 0.1.3
 author: Empire92
 website: www.empcraft.com
 softdepend: [IndividualMessages,Factions,EnjinMinecraftPlugin,Essentials,Vault]
