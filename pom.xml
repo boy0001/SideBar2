@@ -23,6 +23,30 @@
       <scope>provided</scope>
     </dependency>
 	<dependency>
+      <groupId>org.bukkit</groupId>
+      <artifactId>craftbukkit</artifactId>
+      <version>1.7.8-R0.1</version>
+      <type>jar</type>
+      <scope>provided</scope>
+	  <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.bukkit</groupId>
+      <artifactId>craftbukkit</artifactId>
+      <version>1.7.5-R0.1</version>
+      <type>jar</type>
+      <scope>provided</scope>
+	  <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.bukkit</groupId>
+      <artifactId>craftbukkit</artifactId>
+      <version>1.7.2-R0.3</version>
+      <type>jar</type>
+      <scope>provided</scope>
+	  <optional>false</optional>
+    </dependency>	
+	<dependency>
       <groupId>org.bukkit.plugins</groupId>
       <artifactId>MassiveCore</artifactId>
       <version>7.3.0</version>
@@ -78,57 +102,5 @@
       </resource>
     </resources>
  
-    <plugins>
-      <plugin>
-	  <groupId>org.apache.maven.plugins</groupId>
-	  <artifactId>maven-dependency-plugin</artifactId>
-	  <version>2.1</version>
-	  <executions>
-		<execution>
-			<id>copy-dependencies</id>
-			<phase>package</phase>
-			<goals>
-				<goal>copy-dependencies</goal>
-			</goals>
-			<configuration>
-				<overWriteReleases>false</overWriteReleases>
-				<overWriteSnapshots>false</overWriteSnapshots>
-				<overWriteIfNewer>true</overWriteIfNewer>
-				<includeScope>provided</includeScope>
-			</configuration>
-			</execution>
-			<execution>
-			<id>copy-model</id>
-			<phase>package</phase>
-			<goals>
-				<goal>copy</goal>
-			</goals>
-			<configuration>
-				<artifactItems>
-					<artifactItem>
-						<groupId>org.bukkit</groupId>
-						<artifactId>craftbukkit</artifactId>
-						<version>1.7.2-R0.3</version>
-						<type>jar</type>
-					</artifactItem>
-					<artifactItem>
-						<groupId>org.bukkit</groupId>
-						<artifactId>craftbukkit</artifactId>
-						<version>1.7.5-R0.1</version>
-						<type>jar</type>
-					</artifactItem>
-					<artifactItem>
-						<groupId>org.bukkit</groupId>
-						<artifactId>craftbukkit</artifactId>
-						<version>1.7.8-R0.1</version>
-						<type>jar</type>
-					</artifactItem>
-				</artifactItems>
-			</configuration>
-		</execution>
-	  </executions>
-      </plugin>
-    </plugins>
-
   </build>
 </project>
