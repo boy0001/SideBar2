@@ -8,7 +8,7 @@
   <repositories>
     <repository>
       <id>bukkit-repo</id>
-      <url>${settings.localRepository}</url>
+      <url>file:${settings.localRepository}</url>
     </repository>
   </repositories>
   
