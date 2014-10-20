@@ -17,7 +17,7 @@ import com.enjin.officialplugin.points.EnjinPointsSyncClass;
 import com.enjin.officialplugin.points.ErrorConnectingToEnjinException;
 import com.enjin.officialplugin.points.PlayerDoesNotExistException;
 import com.enjin.officialplugin.threaded.EnjinRetrievePlayerTags;
-import com.enjin.proto.stats.EnjinStats;
+import com.enjin.officialplugin.stats.StatValue;
 
 public class EnjinFeature {
 	SideBar SB;
