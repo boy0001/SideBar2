@@ -120,8 +120,7 @@
 						<configuration>
 							<artifactSet>
 								<includes>
-									<include>org.apache.commons:*</include>
-									<include>com.empcraft.sidebar:SB*</include>
+									<include>com.empcraft.sidebar:*</include>
 								</includes>
 							</artifactSet>
 							<createDependencyReducedPom>false</createDependencyReducedPom>
