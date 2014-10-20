@@ -25,10 +25,23 @@
 	<dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>craftbukkit</artifactId>
-      <version>1.7.8-R0.1</version>
-      <type>jar</type>
-      <scope>provided</scope>
-	  <optional>false</optional>
+	  <includes>
+		<include>
+		  <version>1.7.8-R0.1</version>
+		  <type>jar</type>
+		  <scope>provided</scope>
+		</include>
+		<include>
+		  <version>1.7.5-R0.1</version>
+		  <type>jar</type>
+		  <scope>provided</scope>
+		</include>
+		<include>
+		  <version>1.7.2-R0.3</version>
+		  <type>jar</type>
+		  <scope>provided</scope>
+		</include>
+	  </includes>
     </dependency>
     <dependency>
       <groupId>org.bukkit</groupId>
