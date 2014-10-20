@@ -2,6 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.empcraft.sidebar</groupId>
   <artifactId>SB-parent</artifactId>
+  <packaging>pom</packaging>
   <version>parent</version>
   <name>SideBar</name>
 	<properties>
